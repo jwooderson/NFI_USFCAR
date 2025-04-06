@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning</title>
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body>
+    <script>
+      var countpictures = 0;
+
+      </script>
+    <!-- <h1 style="text-align: center">Learning</h1> -->
+    <div id="timer"></div>
+    
+    <h3>Which set you want to display?</h3><input id="input" > 
+    <h3>Start the timer then click on the button to see next set of images</h3>
+    <button type="button" onclick="timer_start()" id="btnID1">
+      Start timer
+    </button>
+    <button type="button" onclick="delay()" id="btnID">Next images</button>
+    
+    <style>
+      #btnID {
+        font-size: 50px;
+    }
+    #btnID1 {
+      font-size: 50px;
+    }
+      </style>
+    <div class="images"></div>
+    <script src="learning.js"></script>
+  </body>
+</html>
